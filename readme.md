@@ -1,7 +1,7 @@
 # Using PowerShell v5.0 Classes in a Script Module
-I've been working at building a PowerShell script module that leverages classes in an effort to learn the patterns of object-oriented development in PowerShell v5.0. I've run into several problems, however, that have left me doubting the practicality of using classes in their current state. This project will demonstrate several approaches I've taken and the problems I've encountered with each. This is not an attempt to provide a solution to those problems, but hopefully will open the discussion about improving the implementation of classes in the next version of PowerShell. Otherwise, consider this a vehicle to discuss the correct way to use classes in a module and to point out where I've gone wrong and what to expect with each approach. What is the "endorsed" way to do this?
+I've been working at building a PowerShell script module that leverages classes in an effort to learn the patterns of object-oriented development in PowerShell v5.0. I've run into several problems, however, that have left me doubting the practicality of using classes in their current state. This project will demonstrate several approaches I've taken and the problems I've encountered with each. This is not an attempt to provide a solution to those problems, but hopefully will open the discussion about improving the implementation of classes in the next version of PowerShell. Otherwise, consider this a vehicle to discuss the correct way to use classes in a module and to point out where I've gone wrong and what to expect with each approach. What is the **endorsed** way to do this?
 
-For reference, the original project is [here](github.com/mattmcnabb/OneLogin).
+For reference, the original project is [here](https://github.com/mattmcnabb/OneLogin).
 
 ## Project Details
 This project contains 5 PowerShell modules, each demonstrating a different approach. A description of each approach and roadblocks with each is included below.
